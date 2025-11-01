@@ -11,7 +11,7 @@ end
 Players.LocalPlayer.Idled:Connect(preventAFK)
 print("Anti-AFK ativado!")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/josevallejopr1/Lybrary/refs/heads/main/Library”))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/josevallejopr1/Lybrary/refs/heads/main/Library”))()
 
 local window = library:AddWindow("Youtuberpr1| By Josevallejopr ", {
     main_color = Color3.fromRGB(0, 0, 255),
